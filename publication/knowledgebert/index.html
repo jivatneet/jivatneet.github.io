@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="As a satellite is deployed from the launch vehicle, it is subjected to high angular rates which need to be dampened in order for the satellite to perform its functions as expected. Simple and robust algorithms, such as BDot, are generally used to provide the required control torque for detumbling the satellite. This paper elucidates the design process for the detumbling algorithm to be implemented on a nanosatellite currently being developed by Team Anant, the Student Satellite Team of BITS Pilani. The process commenced with the selection of hardware to be used onboard the satellite. Magnetometers and Gyroscopes were finalized to be used as sensors. Various commercially available sensor models were then compared based on power and operating conditions. For actuation, a magnetorquer system was designed specifically to the requirements of the team. The system comprised of two magnetorquer rods and a magnetorquer coil aligned in orthogonal directions. The sensors and actuators were then accurately modeled in MATLAB for further testing. The modeling involved some interesting challenges due to the magnetic moment retained by the ferromagnetic core. These challenges, and the ways to overcome them have been also been briefly discussed in the paper. After finalizing the hardware, the team proceeded with implementing various popular control algorithms for detumbling the satellite. The algorithms were first theoretically analysed, and then modeled on MATLAB. The simulations took the space environment around the satellite into consideration for higher accuracy. The algorithms were tested for different initial conditions, using different time-steps and under different power constraints. The algorithms considered and the conclusions derived from these simulations have also been discussed elaborately in this paper. The paper concluded by presenting the finalized detumbling algorithm(s) to be used by Team Anant, and the various conditions devised to ensure efficient use of electrical power. The paper also presents viable alternatives to the finalized algorithm(s), using other hardware components. These alternatives and conditions have also been documented in the paper for a better understanding.">
+  <meta name="description" content="Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture semantic, syntactic, and factual knowledge in their parameters. However, storing large amounts of factual knowledge in the parameters of the model is sub-optimal given the resource requirements and ever-growing amounts of knowledge. Instead of packing all the knowledge in the model parameters, we argue that a more efficient alternative is to provide contextually relevant structured knowledge to the model and train it to use that knowledge. This allows the training of the language model to be de-coupled from the external knowledge source and the latter can be updated without affecting the parameters of the language model. Empirical evaluation using different subsets of LAMA probe reveals that such an approach allows smaller language models with access to external knowledge to achieve significant and robust outperformance over much larger language models.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://jivatneet.github.io/publication/bdot/">
+  <link rel="alternate" hreflang="en-us" href="https://jivatneet.github.io/publication/knowledgebert/">
 
   
 
@@ -261,7 +261,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu5ec89b6584cc469cf506bcce1c8907a4_11001_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5ec89b6584cc469cf506bcce1c8907a4_11001_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://jivatneet.github.io/publication/bdot/">
+  <link rel="canonical" href="https://jivatneet.github.io/publication/knowledgebert/">
 
   
   
@@ -276,15 +276,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Jivat Neet">
-  <meta property="og:url" content="https://jivatneet.github.io/publication/bdot/">
-  <meta property="og:title" content="Simulation and Selection of Detumbling Algorithms for a 3U CubeSat (IAC 2019) | Jivat Neet">
-  <meta property="og:description" content="As a satellite is deployed from the launch vehicle, it is subjected to high angular rates which need to be dampened in order for the satellite to perform its functions as expected. Simple and robust algorithms, such as BDot, are generally used to provide the required control torque for detumbling the satellite. This paper elucidates the design process for the detumbling algorithm to be implemented on a nanosatellite currently being developed by Team Anant, the Student Satellite Team of BITS Pilani. The process commenced with the selection of hardware to be used onboard the satellite. Magnetometers and Gyroscopes were finalized to be used as sensors. Various commercially available sensor models were then compared based on power and operating conditions. For actuation, a magnetorquer system was designed specifically to the requirements of the team. The system comprised of two magnetorquer rods and a magnetorquer coil aligned in orthogonal directions. The sensors and actuators were then accurately modeled in MATLAB for further testing. The modeling involved some interesting challenges due to the magnetic moment retained by the ferromagnetic core. These challenges, and the ways to overcome them have been also been briefly discussed in the paper. After finalizing the hardware, the team proceeded with implementing various popular control algorithms for detumbling the satellite. The algorithms were first theoretically analysed, and then modeled on MATLAB. The simulations took the space environment around the satellite into consideration for higher accuracy. The algorithms were tested for different initial conditions, using different time-steps and under different power constraints. The algorithms considered and the conclusions derived from these simulations have also been discussed elaborately in this paper. The paper concluded by presenting the finalized detumbling algorithm(s) to be used by Team Anant, and the various conditions devised to ensure efficient use of electrical power. The paper also presents viable alternatives to the finalized algorithm(s), using other hardware components. These alternatives and conditions have also been documented in the paper for a better understanding."><meta property="og:image" content="https://jivatneet.github.io/publication/bdot/featured.png">
-  <meta property="twitter:image" content="https://jivatneet.github.io/publication/bdot/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://jivatneet.github.io/publication/knowledgebert/">
+  <meta property="og:title" content="No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge (AKBC 2021) | Jivat Neet">
+  <meta property="og:description" content="Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture semantic, syntactic, and factual knowledge in their parameters. However, storing large amounts of factual knowledge in the parameters of the model is sub-optimal given the resource requirements and ever-growing amounts of knowledge. Instead of packing all the knowledge in the model parameters, we argue that a more efficient alternative is to provide contextually relevant structured knowledge to the model and train it to use that knowledge. This allows the training of the language model to be de-coupled from the external knowledge source and the latter can be updated without affecting the parameters of the language model. Empirical evaluation using different subsets of LAMA probe reveals that such an approach allows smaller language models with access to external knowledge to achieve significant and robust outperformance over much larger language models."><meta property="og:image" content="https://jivatneet.github.io/publication/knowledgebert/featured.jpg">
+  <meta property="twitter:image" content="https://jivatneet.github.io/publication/knowledgebert/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-12-06T22:43:22&#43;05:30">
+      <meta property="article:published_time" content="2021-03-26T22:43:22&#43;05:30">
     
-    <meta property="article:modified_time" content="2019-10-21T22:43:22&#43;05:30">
+    <meta property="article:modified_time" content="2021-09-11T22:43:22&#43;05:30">
   
 
   
@@ -306,20 +306,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://jivatneet.github.io/publication/bdot/"
+    "@id": "https://jivatneet.github.io/publication/knowledgebert/"
   },
-  "headline": "Simulation and Selection of Detumbling Algorithms for a 3U CubeSat (IAC 2019)",
+  "headline": "No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge (AKBC 2021)",
   
   "image": [
-    "https://jivatneet.github.io/publication/bdot/featured.png"
+    "https://jivatneet.github.io/publication/knowledgebert/featured.jpg"
   ],
   
-  "datePublished": "2020-12-06T22:43:22+05:30",
-  "dateModified": "2019-10-21T22:43:22+05:30",
+  "datePublished": "2021-03-26T22:43:22+05:30",
+  "dateModified": "2021-09-11T22:43:22+05:30",
   
   "author": {
     "@type": "Person",
-    "name": "Vishnu P Katkoori"
+    "name": "Jivat Neet Kaur"
   },
   
   "publisher": {
@@ -330,7 +330,7 @@
       "url": "https://jivatneet.github.io/images/icon_hu5ec89b6584cc469cf506bcce1c8907a4_11001_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "As a satellite is deployed from the launch vehicle, it is subjected to high angular rates which need to be dampened in order for the satellite to perform its functions as expected. Simple and robust algorithms, such as BDot, are generally used to provide the required control torque for detumbling the satellite. This paper elucidates the design process for the detumbling algorithm to be implemented on a nanosatellite currently being developed by Team Anant, the Student Satellite Team of BITS Pilani. The process commenced with the selection of hardware to be used onboard the satellite. Magnetometers and Gyroscopes were finalized to be used as sensors. Various commercially available sensor models were then compared based on power and operating conditions. For actuation, a magnetorquer system was designed specifically to the requirements of the team. The system comprised of two magnetorquer rods and a magnetorquer coil aligned in orthogonal directions. The sensors and actuators were then accurately modeled in MATLAB for further testing. The modeling involved some interesting challenges due to the magnetic moment retained by the ferromagnetic core. These challenges, and the ways to overcome them have been also been briefly discussed in the paper. After finalizing the hardware, the team proceeded with implementing various popular control algorithms for detumbling the satellite. The algorithms were first theoretically analysed, and then modeled on MATLAB. The simulations took the space environment around the satellite into consideration for higher accuracy. The algorithms were tested for different initial conditions, using different time-steps and under different power constraints. The algorithms considered and the conclusions derived from these simulations have also been discussed elaborately in this paper. The paper concluded by presenting the finalized detumbling algorithm(s) to be used by Team Anant, and the various conditions devised to ensure efficient use of electrical power. The paper also presents viable alternatives to the finalized algorithm(s), using other hardware components. These alternatives and conditions have also been documented in the paper for a better understanding."
+  "description": "Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture semantic, syntactic, and factual knowledge in their parameters. However, storing large amounts of factual knowledge in the parameters of the model is sub-optimal given the resource requirements and ever-growing amounts of knowledge. Instead of packing all the knowledge in the model parameters, we argue that a more efficient alternative is to provide contextually relevant structured knowledge to the model and train it to use that knowledge. This allows the training of the language model to be de-coupled from the external knowledge source and the latter can be updated without affecting the parameters of the language model. Empirical evaluation using different subsets of LAMA probe reveals that such an approach allows smaller language models with access to external knowledge to achieve significant and robust outperformance over much larger language models."
 }
 </script>
 
@@ -348,7 +348,7 @@
 
 
 
-  <title>Simulation and Selection of Detumbling Algorithms for a 3U CubeSat (IAC 2019) | Jivat Neet</title>
+  <title>No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge (AKBC 2021) | Jivat Neet</title>
 
 </head>
 
@@ -695,10 +695,12 @@
 
   
   
+    
+  
 
 
 <div class="article-container pt-3">
-  <h1>Simulation and Selection of Detumbling Algorithms for a 3U CubeSat (IAC 2019)</h1>
+  <h1>No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge (AKBC 2021)</h1>
 
   
 
@@ -715,7 +717,7 @@
     
 
   
-  <span >Vishnu P Katkoori</span>, <span class="author-highlighted">Jivat Neet Kaur</span>, <span >Tushar Goyal</span>
+  <span class="author-highlighted">Jivat Neet Kaur</span>, <span >Sumit Bhatia</span>, <span >Milan Aggarwal</span>, <span >Rachit Bansal</span>, <span >Balaji Krishnamurthy</span>
   </div>
   
   
@@ -726,7 +728,7 @@
     
       
     
-    October 2019
+    September 2021
   </span>
   
 
@@ -776,7 +778,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://team-anant.org/papers/IAC-19,B4,9-GTS.5,10,x53342.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/pdf?id=fn5K7VfI3MV" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -806,9 +808,9 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://iafastro.directory/iac/paper/id/53342/summary/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://drive.google.com/file/d/1fIaIYLeU2urNrdOjrj-MeW5OK19kspUs/view?usp=sharing" target="_blank" rel="noopener">
     
-    Abstract
+    talk
   </a>
 
 
@@ -818,9 +820,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 681px; max-height: 689px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 380px;">
   <div style="position: relative">
-    <img src="/publication/bdot/featured.png" alt="" class="featured-image">
+    <img src="/publication/knowledgebert/featured_hucc5568151d18e0877c5d71ca07cdc500_310106_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
     
   </div>
 </div>
@@ -831,7 +833,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">As a satellite is deployed from the launch vehicle, it is subjected to high angular rates which need to be dampened in order for the satellite to perform its functions as expected. Simple and robust algorithms, such as BDot, are generally used to provide the required control torque for detumbling the satellite. This paper elucidates the design process for the detumbling algorithm to be implemented on a nanosatellite currently being developed by Team Anant, the Student Satellite Team of BITS Pilani. The process commenced with the selection of hardware to be used onboard the satellite. Magnetometers and Gyroscopes were finalized to be used as sensors. Various commercially available sensor models were then compared based on power and operating conditions. For actuation, a magnetorquer system was designed specifically to the requirements of the team. The system comprised of two magnetorquer rods and a magnetorquer coil aligned in orthogonal directions. The sensors and actuators were then accurately modeled in MATLAB for further testing. The modeling involved some interesting challenges due to the magnetic moment retained by the ferromagnetic core. These challenges, and the ways to overcome them have been also been briefly discussed in the paper. After finalizing the hardware, the team proceeded with implementing various popular control algorithms for detumbling the satellite. The algorithms were first theoretically analysed, and then modeled on MATLAB. The simulations took the space environment around the satellite into consideration for higher accuracy. The algorithms were tested for different initial conditions, using different time-steps and under different power constraints. The algorithms considered and the conclusions derived from these simulations have also been discussed elaborately in this paper. The paper concluded by presenting the finalized detumbling algorithm(s) to be used by Team Anant, and the various conditions devised to ensure efficient use of electrical power. The paper also presents viable alternatives to the finalized algorithm(s), using other hardware components. These alternatives and conditions have also been documented in the paper for a better understanding.</p>
+    <p class="pub-abstract">Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture semantic, syntactic, and factual knowledge in their parameters. However, storing large amounts of factual knowledge in the parameters of the model is sub-optimal given the resource requirements and ever-growing amounts of knowledge. Instead of packing all the knowledge in the model parameters, we argue that a more efficient alternative is to provide contextually relevant structured knowledge to the model and train it to use that knowledge. This allows the training of the language model to be de-coupled from the external knowledge source and the latter can be updated without affecting the parameters of the language model. Empirical evaluation using different subsets of LAMA probe reveals that such an approach allows smaller language models with access to external knowledge to achieve significant and robust outperformance over much larger language models.</p>
     
 
     
@@ -842,8 +844,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#3">
+              Preprint
             </a>
           </div>
         </div>
@@ -859,7 +861,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Proceedings of the 70th International Astronautical Congress (IAC)</em></div>
+          <div class="col-12 col-md-9"><em>Workshop on Commonsense Reasoning and Knowledge Bases (CSKB) at AKBC 2021</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -891,7 +893,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jivatneet.github.io/publication/bdot/&amp;text=Simulation%20and%20Selection%20of%20Detumbling%20Algorithms%20for%20a%203U%20CubeSat%20%28IAC%202019%29" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jivatneet.github.io/publication/knowledgebert/&amp;text=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge%20%28AKBC%202021%29" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -904,7 +906,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jivatneet.github.io/publication/bdot/&amp;t=Simulation%20and%20Selection%20of%20Detumbling%20Algorithms%20for%20a%203U%20CubeSat%20%28IAC%202019%29" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jivatneet.github.io/publication/knowledgebert/&amp;t=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge%20%28AKBC%202021%29" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -917,7 +919,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Simulation%20and%20Selection%20of%20Detumbling%20Algorithms%20for%20a%203U%20CubeSat%20%28IAC%202019%29&amp;body=https://jivatneet.github.io/publication/bdot/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge%20%28AKBC%202021%29&amp;body=https://jivatneet.github.io/publication/knowledgebert/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -930,7 +932,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jivatneet.github.io/publication/bdot/&amp;title=Simulation%20and%20Selection%20of%20Detumbling%20Algorithms%20for%20a%203U%20CubeSat%20%28IAC%202019%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jivatneet.github.io/publication/knowledgebert/&amp;title=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge%20%28AKBC%202021%29" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -943,7 +945,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Simulation%20and%20Selection%20of%20Detumbling%20Algorithms%20for%20a%203U%20CubeSat%20%28IAC%202019%29%20https://jivatneet.github.io/publication/bdot/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge%20%28AKBC%202021%29%20https://jivatneet.github.io/publication/knowledgebert/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -956,7 +958,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jivatneet.github.io/publication/bdot/&amp;title=Simulation%20and%20Selection%20of%20Detumbling%20Algorithms%20for%20a%203U%20CubeSat%20%28IAC%202019%29" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jivatneet.github.io/publication/knowledgebert/&amp;title=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge%20%28AKBC%202021%29" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -975,12 +977,6 @@
 
 
   
-  
-    
-
-
-
-
   
     
 
@@ -1099,6 +1095,24 @@
 
 
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -1119,11 +1133,11 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/iclr-eml/">Ask &amp; Explore: Grounded Question Answering for Curiosity-driven exploration (ICLR 2021)</a></li>
-      
       <li><a href="/publication/coseco/">CoSe-Co: Sentence Conditioned Generative CommonSense Contextualizer for Language Models (AKBC 2021)</a></li>
       
-      <li><a href="/publication/knowledgebert/">No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge (AKBC 2021)</a></li>
+      <li><a href="/publication/iclr-eml/">Ask &amp; Explore: Grounded Question Answering for Curiosity-driven exploration (ICLR 2021)</a></li>
+      
+      <li><a href="/publication/bdot/">Simulation and Selection of Detumbling Algorithms for a 3U CubeSat (IAC 2019)</a></li>
       
     </ul>
   </div>
