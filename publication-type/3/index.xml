@@ -5,28 +5,12 @@
     <link>https://jivatneet.github.io/publication-type/3/</link>
       <atom:link href="https://jivatneet.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jivat Neet 2021</copyright><lastBuildDate>Sat, 11 Sep 2021 22:43:22 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jivat Neet 2021</copyright><lastBuildDate>Mon, 21 Oct 2019 22:43:22 +0530</lastBuildDate>
     <image>
       <url>https://jivatneet.github.io/images/icon_hu5ec89b6584cc469cf506bcce1c8907a4_11001_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
       <link>https://jivatneet.github.io/publication-type/3/</link>
     </image>
-    
-    <item>
-      <title>No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge</title>
-      <link>https://jivatneet.github.io/publication/knowledgebert/</link>
-      <pubDate>Sat, 11 Sep 2021 22:43:22 +0530</pubDate>
-      <guid>https://jivatneet.github.io/publication/knowledgebert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CoSe-Co: Sentence Conditioned Generative CommonSense Contextualizer for Language Models</title>
-      <link>https://jivatneet.github.io/publication/coseco/</link>
-      <pubDate>Fri, 10 Sep 2021 22:43:22 +0530</pubDate>
-      <guid>https://jivatneet.github.io/publication/coseco/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Ask &amp; Explore: Grounded Question Answering for Curiosity-driven exploration</title>
