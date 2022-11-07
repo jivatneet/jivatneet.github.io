@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture semantic, syntactic, and factual knowledge in their parameters. However, storing large amounts of factual knowledge in the parameters of the model is sub-optimal given the resource requirements and ever-growing amounts of knowledge. Instead of packing all the knowledge in the model parameters, we argue that a more efficient alternative is to provide contextually relevant structured knowledge to the model and train it to use that knowledge. This allows the training of the language model to be de-coupled from the external knowledge source and the latter can be updated without affecting the parameters of the language model. Empirical evaluation using different subsets of LAMA probe reveals that such an approach allows smaller language models with access to external knowledge to achieve significant and robust outperformance over much larger language models.">
+  <meta name="description" content="Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture factual knowledge in their parameters. We argue that storing large amounts of knowledge in the model parameters is sub-optimal given the ever-growing amounts of knowledge and resource requirements. We posit that a more efficient alternative is to provide explicit access to contextually relevant structured knowledge to the model and train it to use that knowledge. We present LM-CORE -- a general framework to achieve this -- that allows 	extit{decoupling} of the language model training from the external knowledge source and allows the latter to be updated without affecting the already trained model. Experimental results show that LM-CORE, having access to external knowledge, achieves significant and robust outperformance over state-of-the-art knowledge-enhanced language models on knowledge probing tasks; can effectively handle knowledge updates; and performs well on two downstream tasks. We also present a thorough error analysis highlighting the successes and failures of LM-CORE.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://jivatneet.github.io/publication/knowledgebert/">
@@ -240,7 +240,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.min.a92756194c480ac16bc13acc93410fd3.css">
+  <link rel="stylesheet" href="/css/wowchemy.min.b6bf0ddb65bded9f25fa5c5d2189e677.css">
 
   
 
@@ -277,8 +277,8 @@
   
   <meta property="og:site_name" content="Jivat Neet">
   <meta property="og:url" content="https://jivatneet.github.io/publication/knowledgebert/">
-  <meta property="og:title" content="No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge | Jivat Neet">
-  <meta property="og:description" content="Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture semantic, syntactic, and factual knowledge in their parameters. However, storing large amounts of factual knowledge in the parameters of the model is sub-optimal given the resource requirements and ever-growing amounts of knowledge. Instead of packing all the knowledge in the model parameters, we argue that a more efficient alternative is to provide contextually relevant structured knowledge to the model and train it to use that knowledge. This allows the training of the language model to be de-coupled from the external knowledge source and the latter can be updated without affecting the parameters of the language model. Empirical evaluation using different subsets of LAMA probe reveals that such an approach allows smaller language models with access to external knowledge to achieve significant and robust outperformance over much larger language models."><meta property="og:image" content="https://jivatneet.github.io/publication/knowledgebert/featured.jpg">
+  <meta property="og:title" content="LM-CORE: Language Models with Contextually Relevant External Knowledge | Jivat Neet">
+  <meta property="og:description" content="Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture factual knowledge in their parameters. We argue that storing large amounts of knowledge in the model parameters is sub-optimal given the ever-growing amounts of knowledge and resource requirements. We posit that a more efficient alternative is to provide explicit access to contextually relevant structured knowledge to the model and train it to use that knowledge. We present LM-CORE -- a general framework to achieve this -- that allows 	extit{decoupling} of the language model training from the external knowledge source and allows the latter to be updated without affecting the already trained model. Experimental results show that LM-CORE, having access to external knowledge, achieves significant and robust outperformance over state-of-the-art knowledge-enhanced language models on knowledge probing tasks; can effectively handle knowledge updates; and performs well on two downstream tasks. We also present a thorough error analysis highlighting the successes and failures of LM-CORE."><meta property="og:image" content="https://jivatneet.github.io/publication/knowledgebert/featured.jpg">
   <meta property="twitter:image" content="https://jivatneet.github.io/publication/knowledgebert/featured.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -308,7 +308,7 @@
     "@type": "WebPage",
     "@id": "https://jivatneet.github.io/publication/knowledgebert/"
   },
-  "headline": "No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge",
+  "headline": "LM-CORE: Language Models with Contextually Relevant External Knowledge",
   
   "image": [
     "https://jivatneet.github.io/publication/knowledgebert/featured.jpg"
@@ -330,7 +330,7 @@
       "url": "https://jivatneet.github.io/images/icon_hu5ec89b6584cc469cf506bcce1c8907a4_11001_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture semantic, syntactic, and factual knowledge in their parameters. However, storing large amounts of factual knowledge in the parameters of the model is sub-optimal given the resource requirements and ever-growing amounts of knowledge. Instead of packing all the knowledge in the model parameters, we argue that a more efficient alternative is to provide contextually relevant structured knowledge to the model and train it to use that knowledge. This allows the training of the language model to be de-coupled from the external knowledge source and the latter can be updated without affecting the parameters of the language model. Empirical evaluation using different subsets of LAMA probe reveals that such an approach allows smaller language models with access to external knowledge to achieve significant and robust outperformance over much larger language models."
+  "description": "Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture factual knowledge in their parameters. We argue that storing large amounts of knowledge in the model parameters is sub-optimal given the ever-growing amounts of knowledge and resource requirements. We posit that a more efficient alternative is to provide explicit access to contextually relevant structured knowledge to the model and train it to use that knowledge. We present LM-CORE -- a general framework to achieve this -- that allows \textit{decoupling} of the language model training from the external knowledge source and allows the latter to be updated without affecting the already trained model. Experimental results show that LM-CORE, having access to external knowledge, achieves significant and robust outperformance over state-of-the-art knowledge-enhanced language models on knowledge probing tasks; can effectively handle knowledge updates; and performs well on two downstream tasks. We also present a thorough error analysis highlighting the successes and failures of LM-CORE."
 }
 </script>
 
@@ -348,7 +348,7 @@
 
 
 
-  <title>No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge | Jivat Neet</title>
+  <title>LM-CORE: Language Models with Contextually Relevant External Knowledge | Jivat Neet</title>
 
 </head>
 
@@ -499,7 +499,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/files/Jivat_CV_July2022.pdf"><span>CV</span></a>
+          <a class="nav-link " href="/files/Jivat_CV_Oct2022.pdf"><span>CV</span></a>
         </li>
 
         
@@ -574,43 +574,6 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#projects"><span>Projects</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Blog</span></a>
         </li>
 
         
@@ -700,7 +663,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge</h1>
+  <h1>LM-CORE: Language Models with Contextually Relevant External Knowledge</h1>
 
   
 
@@ -778,7 +741,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/pdf?id=fn5K7VfI3MV" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2208.06458.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -796,6 +759,22 @@
 
 
 
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2208.06458" target="_blank" rel="noopener">
+    
+    arXiv
+  </a>
 
   
   
@@ -833,7 +812,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture semantic, syntactic, and factual knowledge in their parameters. However, storing large amounts of factual knowledge in the parameters of the model is sub-optimal given the resource requirements and ever-growing amounts of knowledge. Instead of packing all the knowledge in the model parameters, we argue that a more efficient alternative is to provide contextually relevant structured knowledge to the model and train it to use that knowledge. This allows the training of the language model to be de-coupled from the external knowledge source and the latter can be updated without affecting the parameters of the language model. Empirical evaluation using different subsets of LAMA probe reveals that such an approach allows smaller language models with access to external knowledge to achieve significant and robust outperformance over much larger language models.</p>
+    <p class="pub-abstract">Large transformer-based pre-trained language models have achieved impressive performance on a variety of knowledge-intensive tasks and can capture factual knowledge in their parameters. We argue that storing large amounts of knowledge in the model parameters is sub-optimal given the ever-growing amounts of knowledge and resource requirements. We posit that a more efficient alternative is to provide explicit access to contextually relevant structured knowledge to the model and train it to use that knowledge. We present LM-CORE &ndash; a general framework to achieve this &ndash; that allows 	extit{decoupling} of the language model training from the external knowledge source and allows the latter to be updated without affecting the already trained model. Experimental results show that LM-CORE, having access to external knowledge, achieves significant and robust outperformance over state-of-the-art knowledge-enhanced language models on knowledge probing tasks; can effectively handle knowledge updates; and performs well on two downstream tasks. We also present a thorough error analysis highlighting the successes and failures of LM-CORE.</p>
     
 
     
@@ -893,7 +872,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jivatneet.github.io/publication/knowledgebert/&amp;text=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jivatneet.github.io/publication/knowledgebert/&amp;text=LM-CORE:%20Language%20Models%20with%20Contextually%20Relevant%20External%20Knowledge" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -906,7 +885,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jivatneet.github.io/publication/knowledgebert/&amp;t=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jivatneet.github.io/publication/knowledgebert/&amp;t=LM-CORE:%20Language%20Models%20with%20Contextually%20Relevant%20External%20Knowledge" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -919,7 +898,7 @@
       
       
       <li>
-        <a href="mailto:?subject=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge&amp;body=https://jivatneet.github.io/publication/knowledgebert/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=LM-CORE:%20Language%20Models%20with%20Contextually%20Relevant%20External%20Knowledge&amp;body=https://jivatneet.github.io/publication/knowledgebert/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -932,7 +911,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jivatneet.github.io/publication/knowledgebert/&amp;title=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jivatneet.github.io/publication/knowledgebert/&amp;title=LM-CORE:%20Language%20Models%20with%20Contextually%20Relevant%20External%20Knowledge" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -945,7 +924,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge%20https://jivatneet.github.io/publication/knowledgebert/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=LM-CORE:%20Language%20Models%20with%20Contextually%20Relevant%20External%20Knowledge%20https://jivatneet.github.io/publication/knowledgebert/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -958,7 +937,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jivatneet.github.io/publication/knowledgebert/&amp;title=No%20Need%20to%20Know%20Everything!%20Efficiently%20Augmenting%20Language%20Models%20With%20External%20Knowledge" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jivatneet.github.io/publication/knowledgebert/&amp;title=LM-CORE:%20Language%20Models%20with%20Contextually%20Relevant%20External%20Knowledge" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1043,6 +1022,21 @@
       
     
     <li>
+      <a href="https://www.semanticscholar.org/author/Jivat-Neet-Kaur/2084554148" target="_blank" rel="noopener">
+        <i class="ai ai-semantic-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
       <a href="https://scholar.google.com/citations?user=O43_7KUAAAAJ&amp;hl=en" target="_blank" rel="noopener">
         <i class="ai ai-google-scholar"></i>
       </a>
@@ -1092,7 +1086,7 @@
       
     
     <li>
-      <a href="/files/Jivat_CV_July2022.pdf" >
+      <a href="/files/Jivat_CV_Oct2022.pdf" >
         <i class="ai ai-cv"></i>
       </a>
     </li>
@@ -1148,7 +1142,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/coseco/">CoSe-Co: Sentence Conditioned Generative CommonSense Contextualizer for Language Models</a></li>
+      <li><a href="/publication/coseco/">CoSe-Co: Text Conditioned Generative CommonSense Contextualizer</a></li>
+      
+      <li><a href="/publication/cacm/">Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization</a></li>
       
       <li><a href="/publication/iclr-eml/">Ask &amp; Explore: Grounded Question Answering for Curiosity-driven exploration</a></li>
       
@@ -1174,7 +1170,7 @@
   
 
   <p class="powered-by">
-    © Jivat Neet 2021
+    © Jivat Neet 2022
   </p>
 
   

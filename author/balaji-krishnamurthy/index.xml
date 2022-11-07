@@ -5,7 +5,7 @@
     <link>https://jivatneet.github.io/author/balaji-krishnamurthy/</link>
       <atom:link href="https://jivatneet.github.io/author/balaji-krishnamurthy/index.xml" rel="self" type="application/rss+xml" />
     <description>Balaji Krishnamurthy</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jivat Neet 2021</copyright><lastBuildDate>Mon, 11 Jul 2022 22:43:22 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jivat Neet 2022</copyright><lastBuildDate>Mon, 11 Jul 2022 22:43:22 +0530</lastBuildDate>
     <image>
       <url>https://jivatneet.github.io/images/icon_hu5ec89b6584cc469cf506bcce1c8907a4_11001_512x512_fill_lanczos_center_3.png</url>
       <title>Balaji Krishnamurthy</title>
@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>No Need to Know Everything! Efficiently Augmenting Language Models With External Knowledge</title>
+      <title>LM-CORE: Language Models with Contextually Relevant External Knowledge</title>
       <link>https://jivatneet.github.io/publication/knowledgebert/</link>
       <pubDate>Mon, 11 Jul 2022 22:43:22 +0530</pubDate>
       <guid>https://jivatneet.github.io/publication/knowledgebert/</guid>
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>CoSe-Co: Sentence Conditioned Generative CommonSense Contextualizer for Language Models</title>
+      <title>CoSe-Co: Text Conditioned Generative CommonSense Contextualizer</title>
       <link>https://jivatneet.github.io/publication/coseco/</link>
       <pubDate>Sun, 10 Jul 2022 22:43:22 +0530</pubDate>
       <guid>https://jivatneet.github.io/publication/coseco/</guid>
