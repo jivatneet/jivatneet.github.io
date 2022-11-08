@@ -1,22 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jivat Neet Kaur* | Jivat Neet</title>
+    <title>Jivat Neet Kaur | Jivat Neet</title>
     <link>https://jivatneet.github.io/author/jivat-neet-kaur/</link>
       <atom:link href="https://jivatneet.github.io/author/jivat-neet-kaur/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jivat Neet Kaur*</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jivat Neet 2022</copyright><lastBuildDate>Mon, 11 Jul 2022 22:43:22 +0530</lastBuildDate>
+    <description>Jivat Neet Kaur</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jivat Neet 2022</copyright><lastBuildDate>Sun, 17 Jul 2022 22:43:22 +0530</lastBuildDate>
     <image>
       <url>https://jivatneet.github.io/images/icon_hu5ec89b6584cc469cf506bcce1c8907a4_11001_512x512_fill_lanczos_center_3.png</url>
-      <title>Jivat Neet Kaur*</title>
+      <title>Jivat Neet Kaur</title>
       <link>https://jivatneet.github.io/author/jivat-neet-kaur/</link>
     </image>
     
     <item>
-      <title>Modern Baselines for SPARQL Semantic Parsing</title>
-      <link>https://jivatneet.github.io/publication/sigir_sparql/</link>
+      <title>Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization</title>
+      <link>https://jivatneet.github.io/publication/cacm/</link>
+      <pubDate>Sun, 17 Jul 2022 22:43:22 +0530</pubDate>
+      <guid>https://jivatneet.github.io/publication/cacm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LM-CORE: Language Models with Contextually Relevant External Knowledge</title>
+      <link>https://jivatneet.github.io/publication/knowledgebert/</link>
       <pubDate>Mon, 11 Jul 2022 22:43:22 +0530</pubDate>
-      <guid>https://jivatneet.github.io/publication/sigir_sparql/</guid>
+      <guid>https://jivatneet.github.io/publication/knowledgebert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoSe-Co: Text Conditioned Generative CommonSense Contextualizer</title>
+      <link>https://jivatneet.github.io/publication/coseco/</link>
+      <pubDate>Sun, 10 Jul 2022 22:43:22 +0530</pubDate>
+      <guid>https://jivatneet.github.io/publication/coseco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ask &amp; Explore: Grounded Question Answering for Curiosity-driven exploration</title>
+      <link>https://jivatneet.github.io/publication/iclr-eml/</link>
+      <pubDate>Fri, 21 May 2021 22:43:22 +0530</pubDate>
+      <guid>https://jivatneet.github.io/publication/iclr-eml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation and Selection of Detumbling Algorithms for a 3U CubeSat</title>
+      <link>https://jivatneet.github.io/publication/bdot/</link>
+      <pubDate>Mon, 21 Oct 2019 22:43:22 +0530</pubDate>
+      <guid>https://jivatneet.github.io/publication/bdot/</guid>
       <description></description>
     </item>
     
