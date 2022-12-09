@@ -5,7 +5,7 @@
     <link>https://jivatneet.github.io/project/</link>
       <atom:link href="https://jivatneet.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jivat Neet 2022</copyright><lastBuildDate>Thu, 10 Dec 2020 20:19:43 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jivat Neet 2022</copyright><lastBuildDate>Fri, 10 Dec 2021 00:05:23 +0530</lastBuildDate>
     <image>
       <url>https://jivatneet.github.io/images/icon_hu5ec89b6584cc469cf506bcce1c8907a4_11001_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,36 +13,18 @@
     </image>
     
     <item>
-      <title>Deep Learning EEG Response Representation for BCI</title>
-      <link>https://jivatneet.github.io/project/bci/</link>
-      <pubDate>Thu, 10 Dec 2020 20:19:43 +0530</pubDate>
-      <guid>https://jivatneet.github.io/project/bci/</guid>
-      <description>&lt;p&gt;Built a multi-scale deep CNN architecture using Keras to learn Deep Motor Features for brain computer
-interface with imagined motor tasks in BCI - EEG motor activity dataset.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Socket Programming</title>
-      <link>https://jivatneet.github.io/project/socketprog/</link>
-      <pubDate>Thu, 10 Dec 2020 01:26:42 +0530</pubDate>
-      <guid>https://jivatneet.github.io/project/socketprog/</guid>
+      <title>Language Models for Curiosity-driven Exploration</title>
+      <link>https://jivatneet.github.io/project/curiosity/</link>
+      <pubDate>Fri, 10 Dec 2021 00:05:23 +0530</pubDate>
+      <guid>https://jivatneet.github.io/project/curiosity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COVINFO Application</title>
       <link>https://jivatneet.github.io/project/covinfo/</link>
-      <pubDate>Thu, 10 Dec 2020 00:33:27 +0530</pubDate>
+      <pubDate>Sun, 20 Dec 2020 00:33:27 +0530</pubDate>
       <guid>https://jivatneet.github.io/project/covinfo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Named entity recognition (NER)</title>
-      <link>https://jivatneet.github.io/project/ner/</link>
-      <pubDate>Thu, 10 Dec 2020 00:24:41 +0530</pubDate>
-      <guid>https://jivatneet.github.io/project/ner/</guid>
       <description></description>
     </item>
     
@@ -51,6 +33,14 @@ interface with imagined motor tasks in BCI - EEG motor activity dataset.&lt;/p&g
       <link>https://jivatneet.github.io/project/compiler/</link>
       <pubDate>Thu, 10 Dec 2020 00:05:23 +0530</pubDate>
       <guid>https://jivatneet.github.io/project/compiler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LM-CORE: Language Models with Contextually Relevant External Knowledge</title>
+      <link>https://jivatneet.github.io/project/lmcore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jivatneet.github.io/project/lmcore/</guid>
       <description></description>
     </item>
     
